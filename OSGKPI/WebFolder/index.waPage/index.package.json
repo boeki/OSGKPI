@@ -1,21 +1,97 @@
-﻿{
+{
 	"name": "OSGKPI/index.waPage/index.html",
 	"version": "1.0.0",
 	"loadDependencies": [
 		{
-			"id": "default",
-			"type": "theme"
+			"id": "Desktop_Core",
+			"version": "1.0.0",
+			"type": "core"
 		},
 		{
-			"id": "index.waPage/styles/index.css",
-			"path": "WEBFOLDER",
-			"type": "style"
+			"id": "Widget/container",
+			"type": "widget"
 		},
 		{
-			"id": "application.css",
-			"path": "WEBFOLDER",
-			"type": "style"
+			"id": "Widget/image",
+			"type": "widget"
+		},
+		{
+			"id": "Widget/login",
+			"type": "widget"
+		},
+		{
+			"id": "Widget/tabView",
+			"type": "widget"
+		},
+		{
+			"id": "Widget/menuBar",
+			"type": "widget"
+		},
+		{
+			"id": "Widget/menuItem",
+			"type": "widget"
+		},
+		{
+			"id": "Widget/richText",
+			"type": "widget"
+		},
+		{
+			"id": "Widget/fileUpload",
+			"type": "widget"
+		},
+		{
+			"id": "Widget/button",
+			"type": "widget"
+		},
+		{
+			"id": "Widget/label",
+			"type": "widget"
+		},
+		{
+			"id": "Widget/dataGrid",
+			"type": "widget"
+		},
+		{
+			"id": "Widget/wysiwyg",
+			"type": "widget"
+		},
+		{
+			"package": "default"
+		},
+		{
+			"package": "Button"
+		},
+		{
+			"package": "Text"
+		},
+		{
+			"package": "Container"
+		},
+		{
+			"package": "TextInput"
+		},
+		{
+			"package": "Matrix"
+		},
+		{
+			"package": "TextArea"
+		},
+		{
+			"file": "styles/index.css"
+		},
+		{
+			"file": "application.css",
+			"path": "WEBFOLDER"
+		},
+		{
+			"file": "scripts/jszip.js"
+		},
+		{
+			"file": "scripts/xlsx.js"
+		},
+		{
+			"file": "scripts/index.js"
 		}
-	]
+	],
+	"type": "page"
 }
-
