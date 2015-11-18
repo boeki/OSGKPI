@@ -1,6 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<directory>
+<?xml version="1.0" encoding="UTF-8"?><directory>
 	<group ID="01000000000000000000000000000000" name="Admin">
+		<include user="boeki" ID="71A463CC80D7434188274152C4283E27"/>
 	</group>
+	<group ID="FEFE77E53607A441BDA46D15BCA2F7BD" name="Uploader">
+		<include group="Admin" groupID="01000000000000000000000000000000"/>
+		<include user="chris" ID="3BB37ADCC1602846988AD0C95824582B"/>
+	</group>
+	<group ID="A862E46BEBBDE145902C385A376D2049" name="Users">
+		<include group="Uploader" groupID="FEFE77E53607A441BDA46D15BCA2F7BD"/>
+		<include group="Admin" groupID="01000000000000000000000000000000"/>
+		<include user="frank" ID="D786BD248DCC0C4C95AB3043C49E3166"/>
+	</group>
+	<user ID="71A463CC80D7434188274152C4283E27" name="boeki" fullName="Boeki Tongco" password="99e8b2fd9588fa8f1573fb73aadbab17"/>
+	<user ID="3BB37ADCC1602846988AD0C95824582B" name="chris" fullName="Chris Wheeler" password="8a68f7787e38e0d168b4ce0b0d99528f"/>
+	<user ID="D786BD248DCC0C4C95AB3043C49E3166" name="frank" fullName="Frank Attwood" password="b764899cc7651c304e28c0a3a8b3e609"/>
 </directory>
-

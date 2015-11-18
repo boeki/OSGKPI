@@ -2,6 +2,9 @@
 WAF.onAfterInit = function onAfterInit() {// @lock
 
 // @region namespaceDeclaration// @startlock
+	var dataGrid5 = {};	// @dataGrid
+	var dataGrid4 = {};	// @dataGrid
+	var dataGrid3 = {};	// @dataGrid
 	var dataGrid2 = {};	// @dataGrid
 	var dataGrid1 = {};	// @dataGrid
 	var menuItem6 = {};	// @menuItem
@@ -10,44 +13,109 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 
 // eventHandlers// @lock
 
-	dataGrid2.onRowDraw = function dataGrid2_onRowDraw (event)// @startlock
+	dataGrid5.onRowDraw = function dataGrid5_onRowDraw (event)// @startlock
 	{// @endlock
-		if((event.row.cells[0].value == "Efficiency [using total worked mins]") || (event.row.cells[0].value == "FOB Value/unit (US$)") || (event.row.cells[0].value == "Cost per min produced") || (event.row.cells[0].value == "Wastage %")) { // or if(event.element.salary < 16000)
+		if((event.row.cells[0].value === "FOB Value/unit (US$)") || (event.row.cells[0].value === "Cost per min produced") || (event.row.cells[0].value === "Wastage %")) { // or if(event.element.salary < 16000)
+		//if((event.element.B === "FOB Value/unit (US$)") || (event.element.B === "Cost per min produced") || (event.element.B === "Wastage %")) { // or if(event.element.salary < 16000)
         	for (i = 0; i < event.row.cells.length; i++) {
-    			event.row.cells[i].dom.css("background-color","rgba(255,255,102,0.8)");
+    			event.row.cells[i].dom.css("background-color","rgb(255,255,102)");
+			}
+	    } else if(event.element.B === "Efficiency [using total worked mins]") { // or if(event.element.salary < 16000)
+        	for (i = 0; i < event.row.cells.length; i++) {
+    			event.row.cells[i].dom.css("background-color","rgb(249,239,148)");
+			}
+	    } else {
+	    	for (i = 0; i < event.row.cells.length; i++) {
+    			event.row.cells[i].dom.css("background-color","rgba(255,255,255, 0.0)");
 			}
 	    }
-	    if(event.row.cells[0].value == "Efficiency [using total worked mins]") { // or if(event.element.salary < 16000)
+	};// @lock
+
+	dataGrid4.onRowDraw = function dataGrid4_onRowDraw (event)// @startlock
+	{// @endlock
+		if((event.row.cells[0].value === "FOB Value/unit (US$)") || (event.row.cells[0].value === "Cost per min produced") || (event.row.cells[0].value === "Wastage %")) { // or if(event.element.salary < 16000)
+		//if((event.element.B === "FOB Value/unit (US$)") || (event.element.B === "Cost per min produced") || (event.element.B === "Wastage %")) { // or if(event.element.salary < 16000)
         	for (i = 0; i < event.row.cells.length; i++) {
-    			event.row.cells[i].dom.css("background-color","rgba(249,239,148,0.8)");
+    			event.row.cells[i].dom.css("background-color","rgb(255,255,102)");
+			}
+	    } else if(event.element.B === "Efficiency [using total worked mins]") { // or if(event.element.salary < 16000)
+        	for (i = 0; i < event.row.cells.length; i++) {
+    			event.row.cells[i].dom.css("background-color","rgb(249,239,148)");
+			}
+	    } else {
+	    	for (i = 0; i < event.row.cells.length; i++) {
+    			event.row.cells[i].dom.css("background-color","rgba(255,255,255, 0.0)");
+			}
+	    }
+	};// @lock
+
+	dataGrid3.onRowDraw = function dataGrid3_onRowDraw (event)// @startlock
+	{// @endlock
+		if((event.row.cells[0].value === "FOB Value/unit (US$)") || (event.row.cells[0].value === "Cost per min produced") || (event.row.cells[0].value === "Wastage %")) { // or if(event.element.salary < 16000)
+		//if((event.element.B === "FOB Value/unit (US$)") || (event.element.B === "Cost per min produced") || (event.element.B === "Wastage %")) { // or if(event.element.salary < 16000)
+        	for (i = 0; i < event.row.cells.length; i++) {
+    			event.row.cells[i].dom.css("background-color","rgb(255,255,102)");
+			}
+	    } else if(event.element.B === "Efficiency [using total worked mins]") { // or if(event.element.salary < 16000)
+        	for (i = 0; i < event.row.cells.length; i++) {
+    			event.row.cells[i].dom.css("background-color","rgb(249,239,148)");
+			}
+	    } else {
+	    	for (i = 0; i < event.row.cells.length; i++) {
+    			event.row.cells[i].dom.css("background-color","rgba(255,255,255, 0.0)");
+			}
+	    }
+	};// @lock
+
+	dataGrid2.onRowDraw = function dataGrid2_onRowDraw (event)// @startlock
+	{// @endlock
+		if((event.row.cells[0].value === "FOB Value/unit (US$)") || (event.row.cells[0].value === "Cost per min produced") || (event.row.cells[0].value === "Wastage %")) { // or if(event.element.salary < 16000)
+		//if((event.element.B === "FOB Value/unit (US$)") || (event.element.B === "Cost per min produced") || (event.element.B === "Wastage %")) { // or if(event.element.salary < 16000)
+        	for (i = 0; i < event.row.cells.length; i++) {
+    			event.row.cells[i].dom.css("background-color","rgb(255,255,102)");
+			}
+	    } else if(event.element.B === "Efficiency [using total worked mins]") { // or if(event.element.salary < 16000)
+        	for (i = 0; i < event.row.cells.length; i++) {
+    			event.row.cells[i].dom.css("background-color","rgb(249,239,148)");
+			}
+	    } else {
+	    	for (i = 0; i < event.row.cells.length; i++) {
+    			event.row.cells[i].dom.css("background-color","rgba(255,255,255, 0.0)");
 			}
 	    }
 	};// @lock
 
 	dataGrid1.onRowDraw = function dataGrid1_onRowDraw (event)// @startlock
 	{// @endlock
-		if((event.row.cells[0].value == "Efficiency [using total worked mins]") || (event.row.cells[0].value == "FOB Value/unit (US$)") || (event.row.cells[0].value == "Cost per min produced") || (event.row.cells[0].value == "Wastage %")) { // or if(event.element.salary < 16000)
+		if((event.row.cells[0].value == "FOB Value/unit (US$)") || (event.row.cells[0].value == "Cost per min produced") || (event.row.cells[0].value == "Wastage %")) { // or if(event.element.salary < 16000)
         	for (i = 0; i < event.row.cells.length; i++) {
-    			event.row.cells[i].dom.css("background-color","rgba(255,255,102,0.8)");
+    			event.row.cells[i].dom.css("background-color","rgb(255,255,102)");
 			}
-	    }
-	    if(event.row.cells[0].value == "Efficiency [using total worked mins]") { // or if(event.element.salary < 16000)
+	    } else if(event.row.cells[0].value == "Efficiency [using total worked mins]") { // or if(event.element.salary < 16000)
         	for (i = 0; i < event.row.cells.length; i++) {
-    			event.row.cells[i].dom.css("background-color","rgba(249,239,148,0.8)");
+    			event.row.cells[i].dom.css("background-color","rgb(249,239,148)");
+			}
+	    } else {
+	    	for (i = 0; i < event.row.cells.length; i++) {
+    			event.row.cells[i].dom.css("background-color","rgba(255,255,255, 0.0)");
 			}
 	    }
 	};// @lock
 
 	menuItem6.click = function menuItem6_click (event)// @startlock
 	{// @endlock
-		sources.dSTX.query("rownum = 7", {
-        onSuccess: function(){
-            vResult = sources.dSTX.HS;
-            $('#effSTX span').html(vResult);
-            }
-        });
-		//var veffSTX = sources.dSTX.query("rownum = :1", 7).
-		console.log(vResult);
+		debugger;
+		var myEntity = ""
+		ds.DSTX.find("rowNum = :1", {
+    		params: [7],      // search for a person whose name begins with A and whose ID > 300
+        	// WAF.wildchar contains '*'
+    		onSuccess: function(event) {    // callback for asynchronous execution
+        		myEntity = event.entity; // retrieve the entity directly
+        		console.log(myEntity.HS.getValue());
+        		$('#effSTX').html(myEntity.HS.getValue());
+    		} 
+		});
+		//
 //		$('#effSTX span').html(vResult);
 	};// @lock
 
@@ -127,6 +195,9 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 	};// @lock
 
 // @region eventManager// @startlock
+	WAF.addListener("dataGrid5", "onRowDraw", dataGrid5.onRowDraw, "WAF");
+	WAF.addListener("dataGrid4", "onRowDraw", dataGrid4.onRowDraw, "WAF");
+	WAF.addListener("dataGrid3", "onRowDraw", dataGrid3.onRowDraw, "WAF");
 	WAF.addListener("dataGrid2", "onRowDraw", dataGrid2.onRowDraw, "WAF");
 	WAF.addListener("dataGrid1", "onRowDraw", dataGrid1.onRowDraw, "WAF");
 	WAF.addListener("menuItem6", "click", menuItem6.click, "WAF");

@@ -1,4 +1,4 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?><permissions>
-	<allow action="upload" groupID="1E5A2AD81E77544F98B8881696172487" resource="upload" temporaryForcePermissions="false" type="service"/>
+	<allow action="upload" groupID="FEFE77E53607A441BDA46D15BCA2F7BD" resource="upload" temporaryForcePermissions="false" type="service"/>
 	<allow type="module" resource="myRPC" action="executeFromClient"/>
 </permissions>
