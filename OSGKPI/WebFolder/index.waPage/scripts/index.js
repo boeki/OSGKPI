@@ -104,19 +104,33 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 
 	menuItem6.click = function menuItem6_click (event)// @startlock
 	{// @endlock
-		debugger;
-		var myEntity = ""
+		//debugger;
+		var myEntity = "";
+
 		ds.DSTX.find("rowNum = :1", {
-    		params: [7],      // search for a person whose name begins with A and whose ID > 300
-        	// WAF.wildchar contains '*'
-    		onSuccess: function(event) {    // callback for asynchronous execution
-        		myEntity = event.entity; // retrieve the entity directly
-        		console.log(myEntity.HS.getValue());
-        		$('#effSTX').html(myEntity.HS.getValue());
+    		params: [7],      
+    		onSuccess: function(event) {    
+        		myEntity = event.entity; 
+        		var strVal = myEntity.HS.getValue();
+        		$('#effSTX').html(strVal);
+           		} 
+		});
+		
+
+		ds.DVEST.find("rowNum = :1", {
+    		params: [7],      
+    		onSuccess: function(event) {    
+        		myEntity = event.entity; 
+        		$('#effVEST').html(myEntity.HS.getValue());
     		} 
 		});
-		//
-//		$('#effSTX span').html(vResult);
+		ds.DBS12.find("rowNum = :1", {
+    		params: [7],      
+    		onSuccess: function(event) {    
+        		myEntity = event.entity; 
+        		$('#effBS12').html(myEntity.HS.getValue());
+    		} 
+		});
 	};// @lock
 
 	function to_json(workbook) {
@@ -142,7 +156,18 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 	               };
 		var dSTXTBL = sources.dSTX.getEntityCollection()
 		dSTXTBL.removeAllEntities();
+		var dVESTTBL = sources.dVEST.getEntityCollection()
+		dVESTTBL.removeAllEntities();
+		var dBS12TBL = sources.dBS12.getEntityCollection()
+		dBS12TBL.removeAllEntities();
+		var dBS1TBL = sources.dBS1.getEntityCollection()
+		dBS1TBL.removeAllEntities();
+		var dBS2TBL = sources.dBS2.getEntityCollection()
+		dBS2TBL.removeAllEntities();
 		var files = $$('fileUpload1').getFiles();
+		var eFFCHTTBL = sources.eFFCHT.getEntityCollection();
+		eFFCHTTBL.removeAllEntities();
+
 
    		var file = files[0];
     	var workbook, mySheets;
@@ -179,12 +204,14 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 						myRPC.createBS2GridAsync(callback, [worksheet]);
 					};
             	});
+            	myRPC.createChartAsync(callback);
             	alert('Upload Successful');
             	location.reload();
         	};
         	reader.readAsBinaryString(file);
         	
     	};
+    	
     	//sources.dSTX.query('ID > 0');
     	//$$("dataGrid1").focus();
 		//document.getElementById("dataGrid1").reload(true);

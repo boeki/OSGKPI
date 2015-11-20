@@ -88,6 +88,20 @@
 						"Y" : 533
 					}
 				}
+			},
+			"EFFCHT" : 
+			{
+				"panelColor" : "#548DD4",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 534,
+						"Y" : 540
+					}
+				}
 			}
 		},
 		"model" : 
@@ -348,7 +362,7 @@
 		{
 			"name" : "DBS2",
 			"className" : "DBS2",
-			"collectionName" : "DBS2Collection",
+			"collectionName" : "DBS2TBL",
 			"scope" : "public",
 			"publishAsJSGlobal" : true,
 			"attributes" : 
@@ -750,6 +764,58 @@
 					"kind" : "storage",
 					"scope" : "public",
 					"type" : "string"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "EFFCHT",
+			"className" : "EFFCHT",
+			"collectionName" : "EFFCHTTBL",
+			"matchTable" : "ArrEff",
+			"scope" : "public",
+			"publishAsJSGlobal" : true,
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "monthName",
+					"kind" : "storage",
+					"matchColumn" : "monthNum",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "STX",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "VEST",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "BS12",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
 				}
 			],
 			"key" : 

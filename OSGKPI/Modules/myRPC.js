@@ -188,3 +188,58 @@ exports.createBS2Grid = function createBS2Grid(xParams) {
         };
     };
 };
+
+exports.createChart = function createChart() {
+	var cellList = ['AH', 'BK', 'CQ', 'DV', 'FB', 'GG', 'HM', 'HN', 'HO', 'HP', 'HQ', 'HR'];
+	var monthList = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'];
+	var dSTXrec = ds.DSTX.find('rowNum = :1', 7);
+	if (dSTXrec != null) {
+		var i = 0;
+		cellList.forEach(function(fldVar) {
+			var dCell = "var strVal = dSTXrec." + fldVar + ";";
+			eval(dCell);
+			if (strVal != null) {
+				var eFFCHTrec = ds.EFFCHT.createEntity();
+				eFFCHTrec.monthName = monthList[i];	
+				var numVal = parseFloat(strVal.replace("%", ""));
+				eFFCHTrec.STX = numVal;
+				eFFCHTrec.save();
+        	};
+			i++;
+		});
+	};
+	var dVESTrec = ds.DVEST.find('rowNum = :1', 7);
+	if (dVESTrec != null) {
+		var i = 0;
+		cellList.forEach(function(fldVar) {
+			var dCell = "var strVal = dVESTrec." + fldVar + ";";
+			eval(dCell);
+			if (strVal != null) {
+				var eFFCHTrec = ds.EFFCHT.find('monthName = :1', monthList[i]);
+				if (eFFCHTrec != null) {
+					var numVal = parseFloat(strVal.replace("%", ""));
+					eFFCHTrec.VEST = numVal;
+					eFFCHTrec.save();
+				}
+        	};
+			i++;
+		});
+	};
+	var dBS12rec = ds.DBS12.find('rowNum = :1', 7);
+	if (dBS12rec != null) {
+		var i = 0;
+		cellList.forEach(function(fldVar) {
+			var dCell = "var strVal = dBS12rec." + fldVar + ";";
+			eval(dCell);
+			if (strVal != null) {
+				var eFFCHTrec = ds.EFFCHT.find('monthName = :1', monthList[i]);
+				if (eFFCHTrec != null) {
+					var numVal = parseFloat(strVal.replace("%", ""));
+					eFFCHTrec.BS12 = numVal;
+					eFFCHTrec.save();
+				}
+        	};
+			i++;
+		});
+	};
+};
