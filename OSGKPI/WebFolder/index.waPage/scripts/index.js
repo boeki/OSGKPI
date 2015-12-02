@@ -105,6 +105,8 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 	menuItem6.click = function menuItem6_click (event)// @startlock
 	{// @endlock
 		//debugger;
+		
+		$('#container31').css('overflow', 'auto'); 
 		var myEntity = "";
 
 		ds.DSTX.find("rowNum = :1", {
@@ -116,7 +118,6 @@ WAF.onAfterInit = function onAfterInit() {// @lock
            		} 
 		});
 		
-
 		ds.DVEST.find("rowNum = :1", {
     		params: [7],      
     		onSuccess: function(event) {    

@@ -3,6 +3,197 @@
 	Changes to this CSS file might be lost when it is regenerated.
 */
 
+#effBS12 {
+	width: 80px;
+	height: 20px;
+	top: 215px;
+	left: 183px;
+	position: absolute;
+	font-size: 18px;
+	text-align: right;
+}
+
+#text7 {
+	width: 80px;
+	height: 20px;
+	top: 215px;
+	left: 19px;
+	position: absolute;
+	font-size: 18px;
+}
+
+#effVEST {
+	width: 80px;
+	height: 20px;
+	top: 160px;
+	left: 183px;
+	position: absolute;
+	font-size: 18px;
+	text-align: right;
+}
+
+#effSTX {
+	width: 80px;
+	height: 20px;
+	top: 105px;
+	left: 183px;
+	position: absolute;
+	font-size: 18px;
+	text-align: right;
+}
+
+#text5 {
+	width: 80px;
+	height: 20px;
+	top: 160px;
+	left: 19px;
+	position: absolute;
+	font-size: 18px;
+}
+
+#text4 {
+	width: 80px;
+	height: 20px;
+	top: 105px;
+	left: 19px;
+	position: absolute;
+	font-size: 18px;
+}
+
+#text1 {
+	height: 46px;
+	top: 24px;
+	left: 0px;
+	right: 0px;
+	position: absolute;
+	font-size: 18px;
+	text-align: center;
+}
+
+#container21 {
+	z-index: 1;
+	width: 300px;
+	height: 300px;
+	top: 46px;
+	left: 28px;
+	position: absolute;
+	background-color: rgb(227, 234, 242);
+	border-top-left-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	border-top-right-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	border-bottom-left-radius: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-bottom-right-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
+}
+
+#container31 {
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	position: absolute;
+}
+
+#chart1 {
+	z-index: 3;
+	top: 47px;
+	bottom: 0px;
+	left: 15px;
+	right: 108px;
+	position: absolute;
+}
+
+#container26 {
+	z-index: 2;
+	width: 79px;
+	height: 85px;
+	top: 80px;
+	right: 15px;
+	position: absolute;
+}
+
+#richText11 {
+	z-index: 1;
+	height: 22px;
+	top: 10px;
+	left: 0px;
+	right: 0px;
+	position: absolute;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+#container25 {
+	z-index: 4;
+	height: 426px;
+	top: 526px;
+	left: 347px;
+	right: 0px;
+	position: absolute;
+}
+
+#Text11 {
+	z-index: 6;
+	width: 112px;
+	height: 20px;
+	top: 194px;
+	left: 27px;
+	position: absolute;
+	font-size: 18px;
+}
+
+#Text8 {
+	z-index: 3;
+	width: 112px;
+	height: 20px;
+	top: 135px;
+	left: 27px;
+	position: absolute;
+	font-size: 18px;
+}
+
+#Text7 {
+	z-index: 2;
+	width: 112px;
+	height: 20px;
+	top: 80px;
+	left: 27px;
+	position: absolute;
+	font-size: 18px;
+}
+
+#text6 {
+	z-index: 1;
+	width: 291px;
+	height: 43px;
+	top: 27px;
+	left: 7px;
+	position: absolute;
+	font-size: 18px;
+	text-align: center;
+}
+
+#container23 {
+	z-index: 3;
+	width: 302px;
+	height: 242px;
+	top: 526px;
+	left: 28px;
+	position: absolute;
+	border-top-left-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	border-top-right-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	border-bottom-left-radius: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-bottom-right-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
+	background-color: rgb(227, 234, 242);
+}
+
 #container30 {
 	z-index: 2;
 	width: 79px;
@@ -25,10 +216,10 @@
 }
 
 #container29 {
-	z-index: 6;
-	top: 0px;
-	bottom: 0px;
-	left: 0px;
+	z-index: 2;
+	height: 426px;
+	top: 44px;
+	left: 347px;
 	right: 0px;
 	position: absolute;
 }
@@ -40,73 +231,6 @@
 	left: 15px;
 	right: 108px;
 	position: absolute;
-}
-
-#container22 {
-	z-index: 6;
-	height: 366px;
-	top: 27px;
-	left: 350px;
-	right: 17px;
-	position: absolute;
-}
-
-#text7 {
-	z-index: 6;
-	width: 112px;
-	height: 20px;
-	top: 194px;
-	left: 27px;
-	position: absolute;
-	font-size: 18px;
-}
-
-#text5 {
-	z-index: 4;
-	width: 112px;
-	height: 20px;
-	top: 135px;
-	left: 27px;
-	position: absolute;
-	font-size: 18px;
-}
-
-#text4 {
-	z-index: 3;
-	width: 112px;
-	height: 20px;
-	top: 80px;
-	left: 27px;
-	position: absolute;
-	font-size: 18px;
-}
-
-#text1 {
-	z-index: 2;
-	width: 291px;
-	height: 25px;
-	top: 27px;
-	left: 7px;
-	position: absolute;
-	font-size: 18px;
-}
-
-#container21 {
-	z-index: 5;
-	width: 302px;
-	height: 242px;
-	top: 28px;
-	left: 26px;
-	position: absolute;
-	border-top-left-radius: 10px;
-	-moz-border-radius-topleft: 10px;
-	border-top-right-radius: 10px;
-	-moz-border-radius-topright: 10px;
-	border-bottom-left-radius: 10px;
-	-moz-border-radius-bottomleft: 10px;
-	border-bottom-right-radius: 10px;
-	-moz-border-radius-bottomright: 10px;
-	background-color: rgb(227, 234, 242);
 }
 
 #dataGrid5 .waf-dataGrid-cell {
@@ -183,7 +307,7 @@
 	width: auto;
 	height: 13px;
 	top: 28px;
-	left: 35px;
+	left: 31px;
 	position: absolute;
 }
 
@@ -192,7 +316,7 @@
 	width: auto;
 	height: 13px;
 	top: 103px;
-	left: 133px;
+	left: 131px;
 	position: absolute;
 }
 
@@ -543,7 +667,7 @@
 }
 
 #container12 {
-	z-index: 13;
+	z-index: 12;
 	top: 23px;
 	bottom: -2px;
 	left: 0px;
@@ -570,7 +694,7 @@
 }
 
 #container11 {
-	z-index: 12;
+	z-index: 11;
 	top: 23px;
 	bottom: -2px;
 	left: 0px;
@@ -597,7 +721,7 @@
 }
 
 #container10 {
-	z-index: 11;
+	z-index: 10;
 	top: 23px;
 	bottom: -2px;
 	left: 0px;
@@ -624,7 +748,7 @@
 }
 
 #container9 {
-	z-index: 10;
+	z-index: 13;
 	top: 23px;
 	bottom: -2px;
 	left: 0px;
@@ -657,6 +781,7 @@
 	left: 0px;
 	right: -2px;
 	position: absolute;
+	letter-spacing: normal;
 }
 
 #richText6 {
@@ -984,8 +1109,8 @@
 	text-align: left;
 }
 
-#effSTX {
-	z-index: 1;
+#cpmSTX {
+	z-index: 4;
 	width: 80px;
 	height: 20px;
 	top: 80px;
@@ -995,7 +1120,7 @@
 	text-align: right;
 }
 
-#effVEST {
+#cpmVEST {
 	z-index: 5;
 	width: 80px;
 	height: 20px;
@@ -1006,7 +1131,7 @@
 	text-align: right;
 }
 
-#effBS12 {
+#cpmBS12 {
 	z-index: 7;
 	width: 80px;
 	height: 20px;
