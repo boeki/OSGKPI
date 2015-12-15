@@ -1,4 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?><permissions>
 	<allow action="upload" groupID="FEFE77E53607A441BDA46D15BCA2F7BD" resource="upload" temporaryForcePermissions="false" type="service"/>
 	<allow type="module" resource="myRPC" action="executeFromClient"/>
+	<allow action="read" groupName="Users" groupID="A862E46BEBBDE145902C385A376D2049" resource="Model.DSTX.GG" temporaryForcePermissions="false" type="attribute"/>
 </permissions>

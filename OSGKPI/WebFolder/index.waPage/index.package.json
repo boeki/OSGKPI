@@ -78,6 +78,9 @@
 			"package": "Matrix"
 		},
 		{
+			"package": "Image"
+		},
+		{
 			"package": "TextArea"
 		},
 		{
@@ -95,6 +98,9 @@
 		},
 		{
 			"file": "scripts/index.js"
+		},
+		{
+			"file": "styles/custom.css"
 		}
 	],
 	"type": "page"

@@ -3,64 +3,318 @@
 	Changes to this CSS file might be lost when it is regenerated.
 */
 
-#effBS12 {
-	width: 80px;
-	height: 20px;
-	top: 215px;
-	left: 183px;
-	position: absolute;
-	font-size: 18px;
+#dataGrid8 .waf-widget-body .waf-dataGrid-col-B {
+	text-align: left;
+}
+
+#dataGrid8 .waf-dataGrid-row {
 	text-align: right;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-#text7 {
-	width: 80px;
-	height: 20px;
-	top: 215px;
-	left: 19px;
-	position: absolute;
-	font-size: 18px;
+#dataGrid8 .waf-dataGrid-header {
+	text-align: center;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-weight: bold;
 }
 
-#effVEST {
-	width: 80px;
-	height: 20px;
-	top: 160px;
-	left: 183px;
+#dataGrid8 {
+	z-index: 4;
+	top: 2px;
+	bottom: 2px;
+	left: 2px;
+	right: 2px;
 	position: absolute;
-	font-size: 18px;
-	text-align: right;
 }
 
-#effSTX {
-	width: 80px;
-	height: 20px;
-	top: 105px;
-	left: 183px;
-	position: absolute;
-	font-size: 18px;
-	text-align: right;
+#menuItem12.waf-state-selected {
+	color: rgb(255, 255, 255);
+	background-color: rgb(71, 171, 206);
 }
 
-#text5 {
-	width: 80px;
-	height: 20px;
-	top: 160px;
-	left: 19px;
+#container40 {
+	z-index: 14;
+	top: 23px;
+	bottom: -17px;
+	left: 0px;
+	right: 0px;
 	position: absolute;
-	font-size: 18px;
+}
+
+#richText18 {
+	z-index: 1;
+	width: 66px;
+	height: 23px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+#menuItem12 {
+	z-index: 11;
+	width: 66px;
+	height: 23px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
 }
 
 #text4 {
-	width: 80px;
-	height: 20px;
-	top: 105px;
-	left: 19px;
+	z-index: 3;
+	width: 438px;
+	height: 29px;
+	top: 660px;
+	left: 10px;
 	position: absolute;
-	font-size: 18px;
+	font-size: 24px;
+	color: rgb(102, 102, 102);
 }
 
 #text1 {
+	z-index: 2;
+	width: 313px;
+	height: 66px;
+	top: 620px;
+	left: 76px;
+	position: absolute;
+	color: rgb(127, 127, 127);
+	font-size: 36px;
+}
+
+#image3 {
+	z-index: 1;
+	top: 29px;
+	bottom: 53px;
+	left: 4px;
+	right: 615px;
+	position: absolute;
+}
+
+#container23 {
+	z-index: -1;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	position: absolute;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.199219) 0px 0px 0px 0px;
+	 -moz-box-shadow: rgba(0, 0, 0, 0.199219) 0px 0px 0px 0px;
+	 box-shadow: rgba(0, 0, 0, 0.199219) 0px 0px 0px 0px;
+	box-shadow: rgba(0, 0, 0, 0.199219) 0px 0px 0px 0px;
+}
+
+#container31 {
+	z-index: -1;
+	top: 97px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	position: absolute;
+	border-top-color: transparent;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+	background-color: transparent;
+	-webkit-box-shadow: transparent 2px 2px 6px 0px;
+	 -moz-box-shadow: transparent 2px 2px 6px 0px;
+	 box-shadow: transparent 2px 2px 6px 0px;
+	box-shadow: transparent 2px 2px 6px 0px;
+}
+
+#dataGrid7 .waf-widget-body .waf-dataGrid-col-B {
+	text-align: right;
+}
+
+#dataGrid7 .waf-widget-body .waf-dataGrid-col-C {
+	text-align: right;
+}
+
+#dataGrid7 .waf-widget-body .waf-dataGrid-col-D {
+	text-align: right;
+}
+
+#dataGrid7 .waf-widget-body .waf-dataGrid-col-E {
+	text-align: right;
+}
+
+#dataGrid7 .waf-widget-body .waf-dataGrid-col-F {
+	text-align: right;
+}
+
+#dataGrid7 .waf-widget-body .waf-dataGrid-col-G {
+	text-align: right;
+}
+
+#dataGrid7 .waf-widget-body .waf-dataGrid-col-H {
+	text-align: right;
+}
+
+#dataGrid7 .waf-widget-body .waf-dataGrid-col-I {
+	text-align: right;
+}
+
+#dataGrid7 .waf-widget-body .waf-dataGrid-col-J {
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	text-align: right;
+}
+
+#dataGrid7 .waf-widget-body .waf-dataGrid-col-K {
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	text-align: right;
+}
+
+#dataGrid7 .waf-widget-body .waf-dataGrid-col-L {
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	text-align: right;
+}
+
+#dataGrid7 .waf-widget-body .waf-dataGrid-col-M {
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	text-align: right;
+}
+
+#dataGrid7 .waf-widget-body .waf-dataGrid-col-N {
+	text-align: right;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#dataGrid7 .waf-dataGrid-body {
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#dataGrid7 .waf-dataGrid-cell {
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#dataGrid7 {
+	z-index: 10;
+	top: 2px;
+	bottom: 2px;
+	left: 2px;
+	right: 2px;
+	position: absolute;
+}
+
+#dataGrid6 .waf-dataGrid-body {
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#dataGrid6 .waf-widget-body .waf-dataGrid-col-BK {
+	text-align: right;
+}
+
+#dataGrid6 .waf-widget-body .waf-dataGrid-col-CQ {
+	text-align: right;
+}
+
+#dataGrid6 .waf-widget-body .waf-dataGrid-col-DV {
+	text-align: right;
+}
+
+#dataGrid6 .waf-widget-body .waf-dataGrid-col-FB {
+	text-align: right;
+}
+
+#dataGrid6 .waf-widget-body .waf-dataGrid-col-GG {
+	text-align: right;
+}
+
+#dataGrid6 .waf-widget-body .waf-dataGrid-col-GH {
+	text-align: right;
+}
+
+#dataGrid6 .waf-widget-body .waf-dataGrid-col-GI {
+	text-align: right;
+}
+
+#dataGrid6 .waf-widget-body .waf-dataGrid-col-GJ {
+	text-align: right;
+}
+
+#dataGrid6 .waf-widget-body .waf-dataGrid-col-GK {
+	text-align: right;
+}
+
+#dataGrid6 .waf-widget-body .waf-dataGrid-col-GL {
+	text-align: right;
+}
+
+#dataGrid6 .waf-widget-body .waf-dataGrid-col-GM {
+	text-align: right;
+}
+
+#dataGrid6 .waf-widget-body .waf-dataGrid-col-AH {
+	text-align: right;
+}
+
+#dataGrid6 .waf-dataGrid-header .waf-dataGrid-cell {
+	font-weight: bold;
+	text-align: center;
+}
+
+#dataGrid6 .waf-dataGrid-cell {
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-weight: normal;
+}
+
+#dataGrid1 .waf-dataGrid-header .waf-dataGrid-cell {
+	font-weight: bold;
+}
+
+#dataGrid6 {
+	z-index: 1;
+	top: 2px;
+	bottom: 2px;
+	left: 2px;
+	right: 2px;
+	position: absolute;
+}
+
+#chart4 {
+	z-index: 3;
+	top: 60px;
+	bottom: 25px;
+	left: 15px;
+	right: 107px;
+	position: absolute;
+}
+
+#container26 {
+	z-index: 2;
+	width: 80px;
+	height: 77px;
+	top: 80px;
+	right: 15px;
+	position: absolute;
+}
+
+#richText14 {
+	z-index: 1;
+	height: 36px;
+	top: 10px;
+	left: 0px;
+	right: 0px;
+	position: absolute;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	color: rgb(71, 171, 206);
+	font-weight: normal;
+}
+
+#container25 {
+	z-index: 8;
+	height: 390px;
+	top: 1250px;
+	left: 395px;
+	right: 8px;
+	position: absolute;
+}
+
+#Text19 {
+	z-index: 7;
 	height: 46px;
 	top: 24px;
 	left: 0px;
@@ -70,12 +324,42 @@
 	text-align: center;
 }
 
-#container21 {
-	z-index: 1;
+#Text18 {
+	z-index: 6;
+	width: 80px;
+	height: 20px;
+	top: 84px;
+	left: 19px;
+	position: absolute;
+	font-size: 18px;
+}
+
+#Text12 {
+	z-index: 5;
+	width: 113px;
+	height: 20px;
+	top: 139px;
+	left: 19px;
+	position: absolute;
+	font-size: 18px;
+}
+
+#Text8 {
+	z-index: 2;
+	width: 80px;
+	height: 20px;
+	top: 194px;
+	left: 19px;
+	position: absolute;
+	font-size: 18px;
+}
+
+#container22 {
+	z-index: 7;
 	width: 300px;
-	height: 300px;
-	top: 46px;
-	left: 28px;
+	height: 242px;
+	top: 1250px;
+	left: 32px;
 	position: absolute;
 	background-color: rgb(227, 234, 242);
 	border-top-left-radius: 10px;
@@ -88,27 +372,19 @@
 	-moz-border-radius-bottomright: 10px;
 }
 
-#container31 {
-	top: 0px;
-	bottom: 0px;
-	left: 0px;
-	right: 0px;
-	position: absolute;
-}
-
 #chart1 {
 	z-index: 3;
-	top: 47px;
-	bottom: 0px;
+	top: 60px;
+	bottom: 25px;
 	left: 15px;
-	right: 108px;
+	right: 107px;
 	position: absolute;
 }
 
-#container26 {
+#container21 {
 	z-index: 2;
-	width: 79px;
-	height: 85px;
+	width: 80px;
+	height: 77px;
 	top: 80px;
 	right: 15px;
 	position: absolute;
@@ -116,26 +392,163 @@
 
 #richText11 {
 	z-index: 1;
-	height: 22px;
+	height: 36px;
 	top: 10px;
 	left: 0px;
 	right: 0px;
 	position: absolute;
 	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
-	font-size: 18px;
+	color: rgb(71, 171, 206);
 	font-weight: normal;
 }
 
-#container25 {
-	z-index: 4;
-	height: 426px;
-	top: 526px;
-	left: 347px;
-	right: 0px;
+#container20 {
+	z-index: 6;
+	height: 390px;
+	top: 850px;
+	left: 395px;
+	right: 8px;
 	position: absolute;
 }
 
-#Text11 {
+#Text7 {
+	z-index: 7;
+	height: 46px;
+	top: 24px;
+	left: 0px;
+	right: 0px;
+	position: absolute;
+	font-size: 18px;
+	text-align: center;
+}
+
+#Text6 {
+	z-index: 6;
+	width: 80px;
+	height: 20px;
+	top: 84px;
+	left: 19px;
+	position: absolute;
+	font-size: 18px;
+}
+
+#Text5 {
+	z-index: 5;
+	width: 113px;
+	height: 20px;
+	top: 139px;
+	left: 19px;
+	position: absolute;
+	font-size: 18px;
+}
+
+#Text2 {
+	z-index: 2;
+	width: 80px;
+	height: 20px;
+	top: 194px;
+	left: 19px;
+	position: absolute;
+	font-size: 18px;
+}
+
+#container19 {
+	z-index: 5;
+	width: 300px;
+	height: 242px;
+	top: 850px;
+	left: 32px;
+	position: absolute;
+	background-color: rgb(227, 234, 242);
+	border-top-left-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	border-top-right-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	border-bottom-left-radius: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-bottom-right-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
+}
+
+#chart2 {
+	z-index: 3;
+	top: 60px;
+	bottom: 25px;
+	left: 15px;
+	right: 107px;
+	position: absolute;
+}
+
+#container18 {
+	z-index: 2;
+	width: 80px;
+	height: 77px;
+	top: 80px;
+	right: 15px;
+	position: absolute;
+}
+
+#richText12 {
+	z-index: 1;
+	height: 36px;
+	top: 10px;
+	left: 0px;
+	right: 0px;
+	position: absolute;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	color: rgb(71, 171, 206);
+	font-weight: normal;
+}
+
+#container17 {
+	z-index: 4;
+	height: 390px;
+	top: 52px;
+	left: 395px;
+	right: 8px;
+	position: absolute;
+}
+
+#container37 {
+	z-index: 2;
+	width: 80px;
+	height: 77px;
+	top: 80px;
+	right: 15px;
+	position: absolute;
+}
+
+#richText16 {
+	z-index: 1;
+	height: 40px;
+	top: 10px;
+	left: 0px;
+	right: 0px;
+	position: absolute;
+	color: rgb(71, 171, 206);
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-weight: normal;
+}
+
+#container36 {
+	z-index: 3;
+	height: 390px;
+	top: 450px;
+	left: 395px;
+	right: 8px;
+	position: absolute;
+}
+
+#chart6 {
+	z-index: 3;
+	top: 60px;
+	bottom: 25px;
+	left: 15px;
+	right: 107px;
+	position: absolute;
+}
+
+#Text20 {
 	z-index: 6;
 	width: 112px;
 	height: 20px;
@@ -145,7 +558,7 @@
 	font-size: 18px;
 }
 
-#Text8 {
+#Text17 {
 	z-index: 3;
 	width: 112px;
 	height: 20px;
@@ -155,7 +568,7 @@
 	font-size: 18px;
 }
 
-#Text7 {
+#Text16 {
 	z-index: 2;
 	width: 112px;
 	height: 20px;
@@ -165,7 +578,7 @@
 	font-size: 18px;
 }
 
-#text6 {
+#text9 {
 	z-index: 1;
 	width: 291px;
 	height: 43px;
@@ -176,12 +589,12 @@
 	text-align: center;
 }
 
-#container23 {
-	z-index: 3;
+#container28 {
+	z-index: 2;
 	width: 302px;
 	height: 242px;
-	top: 526px;
-	left: 28px;
+	top: 450px;
+	left: 32px;
 	position: absolute;
 	border-top-left-radius: 10px;
 	-moz-border-radius-topleft: 10px;
@@ -194,43 +607,63 @@
 	background-color: rgb(227, 234, 242);
 }
 
-#container30 {
-	z-index: 2;
-	width: 79px;
-	height: 85px;
-	top: 80px;
-	right: 15px;
-	position: absolute;
-}
-
-#richText14 {
-	z-index: 1;
-	height: 22px;
-	top: 10px;
+#Text15 {
+	z-index: 7;
+	height: 46px;
+	top: 24px;
 	left: 0px;
 	right: 0px;
 	position: absolute;
-	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 18px;
-	font-weight: normal;
+	text-align: center;
 }
 
-#container29 {
+#Text14 {
+	z-index: 6;
+	width: 80px;
+	height: 20px;
+	top: 84px;
+	left: 19px;
+	position: absolute;
+	font-size: 18px;
+}
+
+#Text13 {
+	z-index: 5;
+	width: 113px;
+	height: 20px;
+	top: 139px;
+	left: 19px;
+	position: absolute;
+	font-size: 18px;
+}
+
+#Text9 {
 	z-index: 2;
-	height: 426px;
-	top: 44px;
-	left: 347px;
-	right: 0px;
+	width: 80px;
+	height: 20px;
+	top: 194px;
+	left: 19px;
 	position: absolute;
+	font-size: 18px;
 }
 
-#chart4 {
-	z-index: 3;
-	top: 47px;
-	bottom: 0px;
-	left: 15px;
-	right: 108px;
+#container27 {
+	z-index: 1;
+	width: 300px;
+	height: 242px;
+	top: 50px;
+	left: 32px;
 	position: absolute;
+	background-color: rgb(227, 234, 242);
+	border-top-left-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	border-top-right-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	border-bottom-left-radius: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-bottom-right-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
 }
 
 #dataGrid5 .waf-dataGrid-cell {
@@ -301,31 +734,14 @@
 
 #dataGrid1 .waf-dataGrid-cell {
 	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-weight: normal;
 }
 
 #label1 {
 	width: auto;
-	height: 13px;
-	top: 28px;
-	left: 31px;
-	position: absolute;
-}
-
-#label8 {
-	z-index: 9;
-	width: auto;
-	height: 13px;
-	top: 103px;
-	left: 131px;
-	position: absolute;
-}
-
-#wysiwyg2 {
-	z-index: 9;
-	width: 660px;
-	height: 280px;
-	top: 103px;
-	left: 165px;
+	height: 16px;
+	top: 26px;
+	left: 30px;
 	position: absolute;
 }
 
@@ -669,16 +1085,16 @@
 #container12 {
 	z-index: 12;
 	top: 23px;
-	bottom: -2px;
+	bottom: -17px;
 	left: 0px;
-	right: -2px;
+	right: 0px;
 	position: absolute;
 }
 
 #richText10 {
 	z-index: 1;
-	width: 66px;
-	height: 23px;
+	width: 64px;
+	height: 22px;
 	top: 0px;
 	left: 0px;
 	position: absolute;
@@ -696,16 +1112,16 @@
 #container11 {
 	z-index: 11;
 	top: 23px;
-	bottom: -2px;
+	bottom: -17px;
 	left: 0px;
-	right: -2px;
+	right: 0px;
 	position: absolute;
 }
 
 #richText9 {
 	z-index: 1;
-	width: 66px;
-	height: 23px;
+	width: 64px;
+	height: 22px;
 	top: 0px;
 	left: 0px;
 	position: absolute;
@@ -723,16 +1139,16 @@
 #container10 {
 	z-index: 10;
 	top: 23px;
-	bottom: -2px;
+	bottom: -17px;
 	left: 0px;
-	right: -2px;
+	right: 0px;
 	position: absolute;
 }
 
 #richText8 {
 	z-index: 1;
-	width: 120px;
-	height: 23px;
+	width: 118px;
+	height: 22px;
 	top: 0px;
 	left: 0px;
 	position: absolute;
@@ -750,16 +1166,16 @@
 #container9 {
 	z-index: 13;
 	top: 23px;
-	bottom: -2px;
+	bottom: -17px;
 	left: 0px;
-	right: -2px;
+	right: 0px;
 	position: absolute;
 }
 
 #richText7 {
 	z-index: 1;
-	width: 120px;
-	height: 23px;
+	width: 118px;
+	height: 22px;
 	top: 0px;
 	left: 0px;
 	position: absolute;
@@ -777,17 +1193,17 @@
 #container8 {
 	z-index: 9;
 	top: 23px;
-	bottom: -2px;
+	bottom: -17px;
 	left: 0px;
-	right: -2px;
+	right: 0px;
 	position: absolute;
 	letter-spacing: normal;
 }
 
 #richText6 {
 	z-index: 1;
-	width: 120px;
-	height: 23px;
+	width: 118px;
+	height: 22px;
 	top: 0px;
 	left: 0px;
 	position: absolute;
@@ -805,16 +1221,16 @@
 #container7 {
 	z-index: 8;
 	top: 23px;
-	bottom: -2px;
+	bottom: -17px;
 	left: 0px;
-	right: -2px;
+	right: 0px;
 	position: absolute;
 }
 
 #richText5 {
 	z-index: 1;
-	width: 66px;
-	height: 23px;
+	width: 64px;
+	height: 22px;
 	top: 0px;
 	left: 0px;
 	position: absolute;
@@ -832,16 +1248,16 @@
 #container6 {
 	z-index: 7;
 	top: 23px;
-	bottom: -2px;
+	bottom: -17px;
 	left: 0px;
-	right: -2px;
+	right: 0px;
 	position: absolute;
 }
 
 #richText4 {
 	z-index: 1;
-	width: 66px;
-	height: 23px;
+	width: 64px;
+	height: 22px;
 	top: 0px;
 	left: 0px;
 	position: absolute;
@@ -859,16 +1275,16 @@
 #container5 {
 	z-index: 6;
 	top: 23px;
-	bottom: -2px;
+	bottom: -17px;
 	left: 0px;
-	right: -2px;
+	right: 0px;
 	position: absolute;
 }
 
 #richText3 {
 	z-index: 1;
-	width: 66px;
-	height: 23px;
+	width: 64px;
+	height: 22px;
 	top: 0px;
 	left: 0px;
 	position: absolute;
@@ -886,16 +1302,16 @@
 #container4 {
 	z-index: 5;
 	top: 23px;
-	bottom: -2px;
+	bottom: -17px;
 	left: 0px;
-	right: -2px;
+	right: 0px;
 	position: absolute;
 }
 
 #richText2 {
 	z-index: 1;
-	width: 66px;
-	height: 23px;
+	width: 64px;
+	height: 22px;
 	top: 0px;
 	left: 0px;
 	position: absolute;
@@ -913,16 +1329,16 @@
 #container3 {
 	z-index: 4;
 	top: 23px;
-	bottom: -2px;
+	bottom: -17px;
 	left: 0px;
-	right: -2px;
+	right: 0px;
 	position: absolute;
 }
 
 #richText1 {
 	z-index: 1;
-	width: 66px;
-	height: 23px;
+	width: 64px;
+	height: 22px;
 	top: 0px;
 	left: 0px;
 	position: absolute;
@@ -950,7 +1366,7 @@
 	height: 23px;
 	top: 0px;
 	left: 0px;
-	right: -65px;
+	right: 5px;
 	position: absolute;
 }
 
@@ -959,16 +1375,15 @@
 	top: 5px;
 	bottom: 32px;
 	left: 3px;
-	right: 3px;
+	right: 0px;
 	position: absolute;
 }
 
 #container2 {
-	z-index: 2;
 	top: 76px;
-	bottom: 18px;
+	bottom: 35px;
 	left: 3px;
-	right: 7px;
+	right: 2px;
 	position: absolute;
 	-webkit-box-shadow: transparent 2px 2px 6px 0px;
 	 -moz-box-shadow: transparent 2px 2px 6px 0px;
@@ -978,6 +1393,7 @@
 	border-left-color: transparent;
 	border-right-color: transparent;
 	border-bottom-color: transparent;
+	background-color: transparent;
 }
 
 #login1 {
@@ -1001,19 +1417,18 @@
 
 #image1 {
 	z-index: 1;
-	width: 263px;
-	height: 54px;
+	width: 320px;
+	height: 52px;
 	top: 7px;
 	left: 0px;
 	position: absolute;
 }
 
 #container1 {
-	z-index: 1;
 	height: 70px;
 	top: 4px;
-	left: 1px;
-	right: 7px;
+	left: 2px;
+	right: 2px;
 	position: absolute;
 	background-color: rgb(71, 171, 206);
 	border-top-left-radius: 10px;
@@ -1109,6 +1524,39 @@
 	text-align: left;
 }
 
+#effSTX {
+	z-index: 4;
+	width: 80px;
+	height: 20px;
+	top: 84px;
+	left: 183px;
+	position: absolute;
+	font-size: 18px;
+	text-align: right;
+}
+
+#effVEST {
+	z-index: 3;
+	width: 80px;
+	height: 20px;
+	top: 139px;
+	left: 183px;
+	position: absolute;
+	font-size: 18px;
+	text-align: right;
+}
+
+#effBS12 {
+	z-index: 1;
+	width: 80px;
+	height: 20px;
+	top: 194px;
+	left: 183px;
+	position: absolute;
+	font-size: 18px;
+	text-align: right;
+}
+
 #cpmSTX {
 	z-index: 4;
 	width: 80px;
@@ -1137,6 +1585,72 @@
 	height: 20px;
 	top: 194px;
 	left: 191px;
+	position: absolute;
+	font-size: 18px;
+	text-align: right;
+}
+
+#snsSTX {
+	z-index: 4;
+	width: 80px;
+	height: 20px;
+	top: 84px;
+	left: 183px;
+	position: absolute;
+	font-size: 18px;
+	text-align: right;
+}
+
+#snsVEST {
+	z-index: 3;
+	width: 80px;
+	height: 20px;
+	top: 139px;
+	left: 183px;
+	position: absolute;
+	font-size: 18px;
+	text-align: right;
+}
+
+#snsBS12 {
+	z-index: 1;
+	width: 80px;
+	height: 20px;
+	top: 194px;
+	left: 183px;
+	position: absolute;
+	font-size: 18px;
+	text-align: right;
+}
+
+#wtgSTX {
+	z-index: 4;
+	width: 80px;
+	height: 20px;
+	top: 84px;
+	left: 183px;
+	position: absolute;
+	font-size: 18px;
+	text-align: right;
+}
+
+#wtgVEST {
+	z-index: 3;
+	width: 80px;
+	height: 20px;
+	top: 139px;
+	left: 183px;
+	position: absolute;
+	font-size: 18px;
+	text-align: right;
+}
+
+#wtgBS12 {
+	z-index: 1;
+	width: 80px;
+	height: 20px;
+	top: 194px;
+	left: 183px;
 	position: absolute;
 	font-size: 18px;
 	text-align: right;

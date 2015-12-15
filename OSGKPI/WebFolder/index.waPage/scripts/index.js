@@ -2,6 +2,11 @@
 WAF.onAfterInit = function onAfterInit() {// @lock
 
 // @region namespaceDeclaration// @startlock
+	var dataGrid8 = {};	// @dataGrid
+	var documentEvent = {};	// @document
+	var login1 = {};	// @login
+	var dataGrid7 = {};	// @dataGrid
+	var dataGrid6 = {};	// @dataGrid
 	var dataGrid5 = {};	// @dataGrid
 	var dataGrid4 = {};	// @dataGrid
 	var dataGrid3 = {};	// @dataGrid
@@ -13,10 +18,82 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 
 // eventHandlers// @lock
 
+	dataGrid8.onRowDraw = function dataGrid8_onRowDraw (event)// @startlock
+	{// @endlock
+		if((event.row.cells[0].value === "STX") || (event.row.cells[0].value === "BS1") || (event.row.cells[0].value === "BS2") || (event.row.cells[0].value === "VEST")) { // or if(event.element.salary < 16000)
+   			event.row.cells[0].dom.css("font-weight","bold");
+			for (i = 0; i < event.row.cells.length; i++) {
+    			event.row.cells[i].dom.css("background-color","rgb(216, 216, 216)");
+			}
+	    } else {
+	    	for (i = 0; i < event.row.cells.length; i++) {
+    			event.row.cells[i].dom.css("background-color","rgba(255,255,255, 0.0)");
+			}
+	    }
+	};// @lock
+
+	documentEvent.onLoad = function documentEvent_onLoad (event)// @startlock
+	{// @endlock
+		if (WAF.directory.currentUserBelongsTo("Users")) {
+			$$("tabView1").enable();
+			$$("tabView1").show()
+		} else {
+			$$("tabView1").hide("visibility");
+		};
+		if (WAF.directory.currentUserBelongsTo("Uploader")) {
+				$$("menuItem10").show();
+		};
+	};// @lock
+
+	login1.logout = function login1_logout (event)// @startlock
+	{// @endlock
+		$$("tabView1").hide("visibility");
+	};// @lock
+
+	login1.login = function login1_login (event)// @startlock
+	{// @endlock
+		if (WAF.directory.currentUserBelongsTo("Uploader")) {
+				$$("menuItem10").show();
+		} else {
+			$$("menuItem10").hide();
+		};
+		$$("tabView1").show();
+	};// @lock
+
+	dataGrid7.onRowDraw = function dataGrid7_onRowDraw (event)// @startlock
+	{// @endlock
+		if((event.row.cells[0].value === "Print") || (event.row.cells[0].value === "Embro") || (event.row.cells[0].value === "Wash") || (event.row.cells[0].value === "Avery")) { // or if(event.element.salary < 16000)
+    			event.row.cells[0].dom.css("font-weight","bold");
+
+	    } else if(event.element.A === "Act Prod vs Cap %") { // or if(event.element.salary < 16000)
+        	for (i = 1; i < event.row.cells.length; i++) {
+    			event.row.cells[i].dom.css("background-color","rgb(216, 216, 216)");
+			}
+	    } else {
+	    	for (i = 0; i < event.row.cells.length; i++) {
+    			event.row.cells[i].dom.css("background-color","rgba(255,255,255, 0.0)");
+			}
+	    }
+	};// @lock
+
+	dataGrid6.onRowDraw = function dataGrid6_onRowDraw (event)// @startlock
+	{// @endlock
+		if((event.row.cells[0].value === "STX") || (event.row.cells[0].value === "VEST") || (event.row.cells[0].value === "BS1&2") || (event.row.cells[0].value === "BTE") || (event.row.cells[0].value === "CENTRAL") || (event.row.cells[0].value === "OSG TOTAL")) { // or if(event.element.salary < 16000)
+  			event.row.cells[0].dom.css("background-color","rgb(71, 171, 206)");
+	    } else if(event.element.B === "Total Headcount") { // or if(event.element.salary < 16000)
+        	for (i = 1; i < event.row.cells.length; i++) {
+    			event.row.cells[i].dom.css("background-color","rgb(249,239,148)");
+			}
+	    } else {
+	    	for (i = 0; i < event.row.cells.length; i++) {
+    			event.row.cells[i].dom.css("background-color","rgba(255,255,255, 0.0)");
+			}
+	    }
+	};// @lock
+
 	dataGrid5.onRowDraw = function dataGrid5_onRowDraw (event)// @startlock
 	{// @endlock
 		if((event.row.cells[0].value === "FOB Value/unit (US$)") || (event.row.cells[0].value === "Cost per min produced") || (event.row.cells[0].value === "Wastage %")) { // or if(event.element.salary < 16000)
-		//if((event.element.B === "FOB Value/unit (US$)") || (event.element.B === "Cost per min produced") || (event.element.B === "Wastage %")) { // or if(event.element.salary < 16000)
         	for (i = 0; i < event.row.cells.length; i++) {
     			event.row.cells[i].dom.css("background-color","rgb(255,255,102)");
 			}
@@ -34,7 +111,6 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 	dataGrid4.onRowDraw = function dataGrid4_onRowDraw (event)// @startlock
 	{// @endlock
 		if((event.row.cells[0].value === "FOB Value/unit (US$)") || (event.row.cells[0].value === "Cost per min produced") || (event.row.cells[0].value === "Wastage %")) { // or if(event.element.salary < 16000)
-		//if((event.element.B === "FOB Value/unit (US$)") || (event.element.B === "Cost per min produced") || (event.element.B === "Wastage %")) { // or if(event.element.salary < 16000)
         	for (i = 0; i < event.row.cells.length; i++) {
     			event.row.cells[i].dom.css("background-color","rgb(255,255,102)");
 			}
@@ -52,7 +128,6 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 	dataGrid3.onRowDraw = function dataGrid3_onRowDraw (event)// @startlock
 	{// @endlock
 		if((event.row.cells[0].value === "FOB Value/unit (US$)") || (event.row.cells[0].value === "Cost per min produced") || (event.row.cells[0].value === "Wastage %")) { // or if(event.element.salary < 16000)
-		//if((event.element.B === "FOB Value/unit (US$)") || (event.element.B === "Cost per min produced") || (event.element.B === "Wastage %")) { // or if(event.element.salary < 16000)
         	for (i = 0; i < event.row.cells.length; i++) {
     			event.row.cells[i].dom.css("background-color","rgb(255,255,102)");
 			}
@@ -70,7 +145,6 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 	dataGrid2.onRowDraw = function dataGrid2_onRowDraw (event)// @startlock
 	{// @endlock
 		if((event.row.cells[0].value === "FOB Value/unit (US$)") || (event.row.cells[0].value === "Cost per min produced") || (event.row.cells[0].value === "Wastage %")) { // or if(event.element.salary < 16000)
-		//if((event.element.B === "FOB Value/unit (US$)") || (event.element.B === "Cost per min produced") || (event.element.B === "Wastage %")) { // or if(event.element.salary < 16000)
         	for (i = 0; i < event.row.cells.length; i++) {
     			event.row.cells[i].dom.css("background-color","rgb(255,255,102)");
 			}
@@ -106,7 +180,7 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 	{// @endlock
 		//debugger;
 		
-		$('#container31').css('overflow', 'auto'); 
+		$('#container8').css('overflow', 'auto'); 
 		var myEntity = "";
 
 		ds.DSTX.find("rowNum = :1", {
@@ -117,7 +191,6 @@ WAF.onAfterInit = function onAfterInit() {// @lock
         		$('#effSTX').html(strVal);
            		} 
 		});
-		
 		ds.DVEST.find("rowNum = :1", {
     		params: [7],      
     		onSuccess: function(event) {    
@@ -132,6 +205,76 @@ WAF.onAfterInit = function onAfterInit() {// @lock
         		$('#effBS12').html(myEntity.HS.getValue());
     		} 
 		});
+		
+		ds.DSTX.find("rowNum = :1", {
+    		params: [59],      
+    		onSuccess: function(event) {    
+        		myEntity = event.entity; 
+        		var strVal = myEntity.HS.getValue();
+        		$('#cpmSTX').html(strVal);
+           		} 
+		});
+		ds.DVEST.find("rowNum = :1", {
+    		params: [60],      
+    		onSuccess: function(event) {    
+        		myEntity = event.entity; 
+        		$('#cpmVEST').html(myEntity.HS.getValue());
+    		} 
+		});
+		ds.DBS12.find("rowNum = :1", {
+    		params: [58],      
+    		onSuccess: function(event) {    
+        		myEntity = event.entity; 
+        		$('#cpmBS12').html(myEntity.HS.getValue());
+    		} 
+		});
+		
+		ds.DSTX.find("rowNum = :1", {
+    		params: [49],      
+    		onSuccess: function(event) {    
+        		myEntity = event.entity; 
+        		var strVal = myEntity.HS.getValue();
+        		$('#snsSTX').html(strVal);
+           		} 
+		});
+		ds.DVEST.find("rowNum = :1", {
+    		params: [50],      
+    		onSuccess: function(event) {    
+        		myEntity = event.entity; 
+        		$('#snsVEST').html(myEntity.HS.getValue());
+    		} 
+		});
+		ds.DBS12.find("rowNum = :1", {
+    		params: [48],      
+    		onSuccess: function(event) {    
+        		myEntity = event.entity; 
+        		$('#snsBS12').html(myEntity.HS.getValue());
+    		} 
+		});
+
+		ds.DSTX.find("rowNum = :1", {
+    		params: [68],      
+    		onSuccess: function(event) {    
+        		myEntity = event.entity; 
+        		var strVal = myEntity.HS.getValue();
+        		$('#wtgSTX').html(strVal);
+           		} 
+		});
+		ds.DVEST.find("rowNum = :1", {
+    		params: [79],      
+    		onSuccess: function(event) {    
+        		myEntity = event.entity; 
+        		$('#wtgVEST').html(myEntity.HS.getValue());
+    		} 
+		});
+		ds.DBS12.find("rowNum = :1", {
+    		params: [78],      
+    		onSuccess: function(event) {    
+        		myEntity = event.entity; 
+        		$('#wtgBS12').html(myEntity.HS.getValue());
+    		} 
+		});
+
 	};// @lock
 
 	function to_json(workbook) {
@@ -153,7 +296,7 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 		//var kpif = new ds.KpiFile();
 		
 		callback = function (result) { 
-                        console.log(result);
+//                        console.log(result);
 	               };
 		var dSTXTBL = sources.dSTX.getEntityCollection()
 		dSTXTBL.removeAllEntities();
@@ -166,9 +309,20 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 		var dBS2TBL = sources.dBS2.getEntityCollection()
 		dBS2TBL.removeAllEntities();
 		var files = $$('fileUpload1').getFiles();
-		var eFFCHTTBL = sources.eFFCHT.getEntityCollection();
-		eFFCHTTBL.removeAllEntities();
+//		var eFFCHTTBL = sources.eFFCHT.getEntityCollection();
+//		eFFCHTTBL.removeAllEntities();
+//		var cPMCHTTBL = sources.cPMCHT.getEntityCollection();
+//		cPMCHTTBL.removeAllEntities();
+		var kPICHTTBL = sources.kPICHT.getEntityCollection();
+		kPICHTTBL.removeAllEntities();
+		var dHCTBL = sources.dHC.getEntityCollection()
+		dHCTBL.removeAllEntities();
+		var dBTETBL = sources.dBTE.getEntityCollection()
+		dBTETBL.removeAllEntities();
+		var dSUMMTBL = sources.dSUMM.getEntityCollection()
+		dSUMMTBL.removeAllEntities();
 
+		myRPC.createChartFilesAsync(callback);
 
    		var file = files[0];
     	var workbook, mySheets;
@@ -204,8 +358,16 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 					if (sheetName === "BS2") {
 						myRPC.createBS2GridAsync(callback, [worksheet]);
 					};
+					if (sheetName === "Headcount") {
+						myRPC.createHCGridAsync(callback, [worksheet]);
+					};
+					if (sheetName === "BTE") {
+						myRPC.createBTEGridAsync(callback, [worksheet]);
+					};
             	});
-            	myRPC.createChartAsync(callback);
+            	myRPC.createSummaryAsync(callback);
+//            	myRPC.createKPIChartAsync(callback);
+//            	myRPC.createKPIChart2Async(callback);
             	alert('Upload Successful');
             	location.reload();
         	};
@@ -223,6 +385,12 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 	};// @lock
 
 // @region eventManager// @startlock
+	WAF.addListener("dataGrid8", "onRowDraw", dataGrid8.onRowDraw, "WAF");
+	WAF.addListener("document", "onLoad", documentEvent.onLoad, "WAF");
+	WAF.addListener("login1", "logout", login1.logout, "WAF");
+	WAF.addListener("login1", "login", login1.login, "WAF");
+	WAF.addListener("dataGrid7", "onRowDraw", dataGrid7.onRowDraw, "WAF");
+	WAF.addListener("dataGrid6", "onRowDraw", dataGrid6.onRowDraw, "WAF");
 	WAF.addListener("dataGrid5", "onRowDraw", dataGrid5.onRowDraw, "WAF");
 	WAF.addListener("dataGrid4", "onRowDraw", dataGrid4.onRowDraw, "WAF");
 	WAF.addListener("dataGrid3", "onRowDraw", dataGrid3.onRowDraw, "WAF");
