@@ -3,6 +3,693 @@
 	Changes to this CSS file might be lost when it is regenerated.
 */
 
+#richText31 {
+	z-index: 1;
+	width: 66px;
+	height: 23px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+#menuItem27 {
+	z-index: 9;
+	width: 66px;
+	height: 23px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+#richText30 {
+	z-index: 1;
+	width: 66px;
+	height: 23px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+#menuItem26 {
+	z-index: 8;
+	width: 66px;
+	height: 23px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+#richText29 {
+	z-index: 1;
+	width: 66px;
+	height: 23px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+#menuItem25 {
+	z-index: 7;
+	width: 66px;
+	height: 23px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+#richText27 {
+	z-index: 1;
+	width: 66px;
+	height: 23px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+#menuItem23 {
+	z-index: 6;
+	width: 66px;
+	height: 23px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+#richText26 {
+	z-index: 1;
+	width: 88px;
+	height: 13px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+#menuItem22 {
+	z-index: 5;
+	width: 180px;
+	height: 23px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+#menuBar2 .waf-menuItem.waf-state-selected {
+	background-color: transparent;
+}
+
+#menuBar4 .waf-menuItem.waf-state-selected {
+	color: rgb(255, 255, 255);
+	background-color: rgb(71, 171, 206);
+}
+
+#richText25 {
+	z-index: 1;
+	width: 54px;
+	height: 13px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+#menuItem21 {
+	z-index: 4;
+	width: 100px;
+	height: 23px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+#richText24 {
+	z-index: 1;
+	width: 141px;
+	height: 13px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+#menuItem20 {
+	z-index: 3;
+	width: 180px;
+	height: 23px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+#richText23 {
+	z-index: 1;
+	width: 72px;
+	height: 13px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+#menuItem19 {
+	z-index: 2;
+	width: 110px;
+	height: 23px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+#richText22 {
+	z-index: 1;
+	width: 48px;
+	height: 13px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+#menuItem18 {
+	z-index: 1;
+	width: 66px;
+	height: 23px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+#menuBar4 > .waf-menuItem {
+	margin-bottom: 0px;
+}
+
+#menuBar4 > .waf-menuItem:not(.waf-menuItem-last) {
+	margin-right: 5px;
+}
+
+#menuBar4 {
+	z-index: 3;
+	height: 23px;
+	top: 0px;
+	left: 0px;
+	right: 5px;
+	position: absolute;
+}
+
+#tabView3 {
+	z-index: 1;
+	top: 5px;
+	bottom: 32px;
+	left: 3px;
+	right: -25px;
+	position: absolute;
+}
+
+#container41 {
+	z-index: 3;
+	top: 76px;
+	bottom: 35px;
+	left: 3px;
+	right: 2px;
+	position: absolute;
+	background-color: transparent;
+	border-top-color: transparent;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+	-webkit-box-shadow: transparent 2px 2px 6px 0px;
+	 -moz-box-shadow: transparent 2px 2px 6px 0px;
+	 box-shadow: transparent 2px 2px 6px 0px;
+	box-shadow: transparent 2px 2px 6px 0px;
+}
+
+#richText21 {
+	z-index: 1;
+	width: 110px;
+	height: 26px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+#menuItem17 {
+	z-index: 5;
+	width: 110px;
+	height: 26px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+#dataGrid9 .waf-widget-body .waf-dataGrid-col-AH {
+	text-align: left;
+}
+
+#dataGrid9 .waf-widget-body .waf-dataGrid-col-B {
+	text-align: left;
+}
+
+#dataGrid9 .waf-dataGrid-row {
+	text-align: right;
+}
+
+#dataGrid9 .waf-dataGrid-header {
+	text-align: center;
+}
+
+#dataGrid9 .waf-dataGrid-cell {
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#dataGrid9 {
+	z-index: 2;
+	top: 2px;
+	bottom: 2px;
+	left: 2px;
+	right: 2px;
+	position: absolute;
+}
+
+#dataGrid13 .waf-widget-body .waf-dataGrid-col-BK {
+	text-align: right;
+}
+
+#dataGrid13 .waf-widget-body .waf-dataGrid-col-CQ {
+	text-align: right;
+}
+
+#dataGrid13 .waf-widget-body .waf-dataGrid-col-DV {
+	text-align: right;
+}
+
+#dataGrid13 .waf-widget-body .waf-dataGrid-col-FB {
+	text-align: right;
+}
+
+#dataGrid13 .waf-widget-body .waf-dataGrid-col-GG {
+	text-align: right;
+}
+
+#dataGrid13 .waf-widget-body .waf-dataGrid-col-HM {
+	text-align: right;
+}
+
+#dataGrid13 .waf-widget-body .waf-dataGrid-col-HN {
+	text-align: right;
+}
+
+#dataGrid13 .waf-widget-body .waf-dataGrid-col-HO {
+	text-align: right;
+}
+
+#dataGrid13 .waf-widget-body .waf-dataGrid-col-HP {
+	text-align: right;
+}
+
+#dataGrid13 .waf-dataGrid-header .waf-dataGrid-cell {
+	text-align: center;
+	font-weight: bold;
+}
+
+#dataGrid13 .waf-dataGrid-cell {
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-weight: normal;
+}
+
+#dataGrid13 {
+	z-index: 7;
+	top: 2px;
+	bottom: 2px;
+	left: 2px;
+	right: 2px;
+	position: absolute;
+}
+
+#menuItem16 .waf-menuItem.waf-state-active {
+	text-align: center;
+}
+
+#menuItem16 .waf-menuItem.waf-state-selected {
+	text-align: center;
+}
+
+#container44 {
+	z-index: 5;
+	width: 260px;
+	height: 50px;
+	top: 35px;
+	left: -1px;
+	position: absolute;
+}
+
+#button20 {
+	z-index: 4;
+	width: 20px;
+	height: 22px;
+	top: 3px;
+	right: 80px;
+	position: absolute;
+}
+
+#button19 {
+	z-index: 3;
+	width: 20px;
+	height: 22px;
+	top: 3px;
+	right: 57px;
+	position: absolute;
+}
+
+#button18 {
+	z-index: 2;
+	width: 25px;
+	height: 22px;
+	top: 3px;
+	right: 29px;
+	position: absolute;
+}
+
+#button17 {
+	z-index: 1;
+	width: 23px;
+	height: 22px;
+	top: 3px;
+	right: 3px;
+	position: absolute;
+}
+
+#label5 {
+	z-index: 4;
+	width: auto;
+	height: 13px;
+	top: 31px;
+	left: 28px;
+	position: absolute;
+}
+
+#fileUpload5 {
+	z-index: 4;
+	width: 260px;
+	height: 35px;
+	top: 20px;
+	left: 96px;
+	position: absolute;
+}
+
+#container43 {
+	z-index: 5;
+	width: 260px;
+	height: 50px;
+	top: 35px;
+	left: -1px;
+	position: absolute;
+}
+
+#button16 {
+	z-index: 4;
+	width: 20px;
+	height: 22px;
+	top: 3px;
+	right: 80px;
+	position: absolute;
+}
+
+#button15 {
+	z-index: 3;
+	width: 20px;
+	height: 22px;
+	top: 3px;
+	right: 57px;
+	position: absolute;
+}
+
+#button14 {
+	z-index: 2;
+	width: 25px;
+	height: 22px;
+	top: 3px;
+	right: 29px;
+	position: absolute;
+}
+
+#button13 {
+	z-index: 1;
+	width: 23px;
+	height: 22px;
+	top: 3px;
+	right: 3px;
+	position: absolute;
+}
+
+#label4 {
+	z-index: 2;
+	width: auto;
+	height: 13px;
+	top: 91px;
+	left: 28px;
+	position: absolute;
+}
+
+#fileUpload4 {
+	z-index: 2;
+	width: 260px;
+	height: 35px;
+	top: 80px;
+	left: 96px;
+	position: absolute;
+}
+
+#container35 {
+	z-index: 2;
+	top: 23px;
+	bottom: -2px;
+	left: 0px;
+	right: -2px;
+	position: absolute;
+}
+
+#richText28 {
+	z-index: 1;
+	width: 63px;
+	height: 13px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+#menuItem24 {
+	z-index: 1;
+	width: 120px;
+	height: 23px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+#menuItem24.waf-state-selected {
+	color: rgb(255, 255, 255);
+	background-color: rgb(71, 171, 206);
+}
+
+#menuBar5 {
+	z-index: 1;
+	height: 23px;
+	top: 0px;
+	left: 0px;
+	right: 930px;
+	position: absolute;
+}
+
+#menuBar5 > .waf-menuItem:not(.waf-menuItem-last) {
+	margin-right: 5px;
+}
+
+#menuBar5 > .waf-menuItem {
+	margin-bottom: 0px;
+}
+
+#tabView4 {
+	z-index: 1;
+	top: 5px;
+	bottom: 32px;
+	left: 3px;
+	right: 0px;
+	position: absolute;
+}
+
+#container34 {
+	z-index: 2;
+	top: 76px;
+	bottom: 35px;
+	left: 3px;
+	right: 2px;
+	position: absolute;
+	background-color: transparent;
+	border-top-color: transparent;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+}
+
+#menuItem16.waf-state-selected {
+	color: rgb(255, 255, 255);
+	background-color: rgb(71, 171, 206);
+}
+
+#container24 {
+	z-index: 4;
+	top: 23px;
+	bottom: -17px;
+	left: 0px;
+	right: 0px;
+	position: absolute;
+}
+
+#richText20 {
+	z-index: 1;
+	width: 63px;
+	height: 13px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+#menuItem16 {
+	z-index: 1;
+	width: 120px;
+	height: 23px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	text-align: center;
+}
+
+#menuBar3 > .waf-menuItem {
+	margin-bottom: 0px;
+}
+
+#menuBar3 > .waf-menuItem:not(.waf-menuItem-last) {
+	margin-right: 5px;
+}
+
+#menuBar3 {
+	z-index: 3;
+	height: 23px;
+	top: 0px;
+	left: 0px;
+	right: 771px;
+	position: absolute;
+}
+
+#tabView2 {
+	z-index: 3;
+	top: 5px;
+	bottom: 32px;
+	left: 3px;
+	right: 0px;
+	position: absolute;
+}
+
+#container29 {
+	z-index: 1;
+	top: 76px;
+	bottom: 35px;
+	left: 3px;
+	right: 2px;
+	position: absolute;
+	background-color: transparent;
+	border-top-color: transparent;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+}
+
+#menuItem11 .waf-menuItem {
+	font-size: 16px;
+}
+
+#menuBar2 .waf-menuItem {
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+#richText19 {
+	z-index: 1;
+	width: 52px;
+	height: 26px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+#menuItem15 {
+	z-index: 4;
+	width: 52px;
+	height: 26px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+#richText17 {
+	z-index: 1;
+	width: 51px;
+	height: 26px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+#menuItem14 {
+	z-index: 3;
+	width: 52px;
+	height: 26px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+#richText15 {
+	z-index: 1;
+	width: 51px;
+	height: 26px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+#menuItem13 {
+	z-index: 2;
+	width: 52px;
+	height: 26px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+#richText13 {
+	z-index: 1;
+	width: 51px;
+	height: 26px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+#menuItem11 {
+	z-index: 1;
+	width: 52px;
+	height: 26px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	font-size: 14px;
+}
+
+#menuBar2 {
+	z-index: 102;
+	width: 320px;
+	height: 28px;
+	top: 32px;
+	right: 16px;
+	position: absolute;
+}
+
 #dataGrid8 .waf-widget-body .waf-dataGrid-col-B {
 	text-align: left;
 }
@@ -739,9 +1426,9 @@
 
 #label1 {
 	width: auto;
-	height: 16px;
-	top: 26px;
-	left: 30px;
+	height: 13px;
+	top: 151px;
+	left: 28px;
 	position: absolute;
 }
 
@@ -1035,9 +1722,9 @@
 }
 
 #container13 {
-	width: 294px;
+	width: 260px;
 	height: 211px;
-	top: auto;
+	top: 35px;
 	left: auto;
 	position: absolute;
 }
@@ -1075,10 +1762,10 @@
 }
 
 #fileUpload1 {
-	width: 240px;
+	width: 260px;
 	height: 35px;
-	top: 17px;
-	left: 76px;
+	top: 140px;
+	left: 96px;
 	position: absolute;
 }
 
@@ -1654,5 +2341,86 @@
 	position: absolute;
 	font-size: 18px;
 	text-align: right;
+}
+
+#chartEff {
+	z-index: 4;
+	top: 23px;
+	bottom: 17px;
+	left: 0px;
+	right: 0px;
+	position: absolute;
+}
+
+#chartMins {
+	z-index: 5;
+	top: 23px;
+	bottom: 17px;
+	left: 0px;
+	right: 0px;
+	position: absolute;
+}
+
+#chartSHC {
+	z-index: 6;
+	top: 23px;
+	bottom: 17px;
+	left: 0px;
+	right: 0px;
+	position: absolute;
+}
+
+#chartFOB {
+	z-index: 7;
+	top: 23px;
+	bottom: 17px;
+	left: 0px;
+	right: 0px;
+	position: absolute;
+}
+
+#chartOSG {
+	z-index: 8;
+	top: 23px;
+	bottom: 17px;
+	left: 0px;
+	right: 0px;
+	position: absolute;
+}
+
+#chartBS1 {
+	z-index: 9;
+	top: 23px;
+	bottom: 17px;
+	left: 0px;
+	right: 0px;
+	position: absolute;
+}
+
+#chartBS2 {
+	z-index: 10;
+	top: 23px;
+	bottom: 17px;
+	left: 0px;
+	right: 0px;
+	position: absolute;
+}
+
+#chartBS3 {
+	z-index: 11;
+	top: 23px;
+	bottom: 17px;
+	left: 0px;
+	right: 0px;
+	position: absolute;
+}
+
+#chartYTI {
+	z-index: 12;
+	top: 23px;
+	bottom: 17px;
+	left: 0px;
+	right: 5px;
+	position: absolute;
 }
 

@@ -78,6 +78,9 @@
 			"package": "Matrix"
 		},
 		{
+			"package": "ComboBox"
+		},
+		{
 			"package": "Image"
 		},
 		{
@@ -101,6 +104,48 @@
 		},
 		{
 			"file": "styles/custom.css"
+		},
+		{
+			"file": "styles/jquery.jqplot.css"
+		},
+		{
+			"file": "scripts/jquery.jqplot.min.js"
+		},
+		{
+			"file": "scripts/jquery.jqplot.js"
+		},
+		{
+			"file": "scripts/jqplot.canvasTextRenderer.js"
+		},
+		{
+			"file": "scripts/jqplot.canvasAxisLabelRenderer.js"
+		},
+		{
+			"file": "scripts/jqplot.logAxisRenderer.js"
+		},
+		{
+			"file": "scripts/jqplot.canvasAxisTickRenderer.js"
+		},
+		{
+			"file": "scripts/jqplot.dateAxisRenderer.js"
+		},
+		{
+			"file": "scripts/jqplot.categoryAxisRenderer.js"
+		},
+		{
+			"file": "scripts/jqplot.highlighter.js"
+		},
+		{
+			"file": "scripts/jqplot.cursor.js"
+		},
+		{
+			"file": "scripts/jqplot.enhancedLegendRenderer.js"
+		},
+		{
+			"file": "scripts/jqplot.trendline.js"
+		},
+		{
+			"file": "scripts/jqplot.canvasOverlay.js"
 		}
 	],
 	"type": "page"
